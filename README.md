@@ -28,7 +28,7 @@ IDS pare down complex topics to their key practical components, so you gain usab
 
 ## Topics
 
-| || Lessons | Hours | Tutorial | Exercise |
+| | Lessons | Hours | Tutorial | Exercise |
 |---||---|---|---|---|
 |1|**Hi, Python** <br/> A quick introduction to Python syntax, variable assignment, an numbers | 0:20 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosug/IDS-RDM-202004-Python-Basics/blob/master/hi_python.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosug/IDS-RDM-202004-Python-Basics/blob/master/Exercise1.ipynb) |
 |2|**Functions and Getting Help** <br/> Calling functions and defining our own, and using Python's build-in documentation | 0:20 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](..) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](..) |
