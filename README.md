@@ -41,7 +41,7 @@ IDS pare down complex topics to their key practical components, so you gain usab
 
 ## Duration: 2 hours
 
-## Course type: Online, Self-learned
+## Course type: Online material, Self-paced.
 
 
 
