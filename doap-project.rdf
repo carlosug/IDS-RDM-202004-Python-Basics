@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+   
+         https://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+  <Project rdf:about="https://carlosug.github.io/AppliedRR/">
+    <created>2020-09-22</created>
+    <license rdf:resource="https://spdx.org/licenses/Apache-2.0" />
+    <name>Apache Applied Research with R</name>
+    <homepage rdf:resource="https://carlosug.github.io/AppliedRR/" />
+    <asfext:pmc rdf:resource="https://zookeeper.apache.org" />
+    <shortdesc>This repository contains a collection of R tutorials, developed at the University of Maastricht for Applied Research course that use R software.</shortdesc>
+    <description>IDS aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. The lessons below were designed for those interested in working with social science data in R.
+
+This is an introduction to R designed for participants with no programming experience. These lessons can be taught in a day (~ 8 hours). They start with some basic information about R syntax, the RStudio interface, and move through how to import files, the structure of data frames, how to deal with factors, how to add/remove rows and columns, how to calculate summary statistics from a data frame, and a brief introduction to inferential statistics. All lessons demonstrate how to work with databases directly from R.</description>
+    <programming-language>Python</programming-language>
+    <category rdf:resource="https://projects.apache.org/category/content" />
+    <release>
+      <Version>
+        <name>Carlos Utrilla Guerrero</name>
+        <created>2020-03-25</created>
+        <revision>1</revision>
+      </Version>
+    </release>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://github.com/carlosug/AppliedRR"/>
+        <browse rdf:resource="https://github.com/carlosug/AppliedRR"/>
+      </GitRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Carlos</foaf:name>
+          <foaf:mbox rdf:resource="mailto:c.utrillagu@gmail.com"/>
+      </foaf:Person>
+    </maintainer>
+<!--: spam
+Content-Type: text/html
+
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> -->
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> --> -->
+</font> </font> </font> </script> </object> </blockquote> </pre>
+</table> </table> </table> </table> </table> </font> </font> </font><body bgcolor="#f0f0f8">
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#6622aa">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>AttributeError</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial">Python 3.8.2: /usr/bin/python3<br>Tue Sep 22 13:12:01 2020</font></td></tr></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///var/www/projects.apache.org/site/make_doap.py">/var/www/projects.apache.org/site/make_doap.py</a> in <strong>&lt;module&gt;</strong></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;140</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;asfext:url&nbsp;rdf:resource="%s"/&gt;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;141</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/asfext:Standard&gt;&lt;/asfext:implements&gt;"""&nbsp;<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;142</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;(form.getvalue('std_title'),&nbsp;form.getvalue('std_body'),&nbsp;form.getvalue('std_id'),&nbsp;makeURL(form.getvalue('std_url'))))<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;143</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;144</small>&nbsp;print("""&nbsp;&nbsp;&lt;/Project&gt;<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>form</strong>&nbsp;= FieldStorage(None, None, [MiniFieldStorage('name...ge('maintainer_email', 'c.utrillagu@gmail.com')]), form.<strong>getvalue</strong>&nbsp;= &lt;bound method FieldStorage.getvalue of FieldStor...e('maintainer_email', 'c.utrillagu@gmail.com')])&gt;, <strong>makeURL</strong>&nbsp;= &lt;function makeURL&gt;</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///var/www/projects.apache.org/site/make_doap.py">/var/www/projects.apache.org/site/make_doap.py</a> in <strong>makeURL</strong>(s=None)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;46</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;47</small>&nbsp;def&nbsp;makeURL(s):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;48</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;s.startswith('http')&nbsp;:<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;49</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;s<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;50</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;'https://'&nbsp;+&nbsp;s<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>s</strong>&nbsp;= None, s.startswith <em>undefined</em></font></small></td></tr></table><p><strong>AttributeError</strong>: 'NoneType' object has no attribute 'startswith'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+("'NoneType' object has no attribute 'startswith'",)
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>with_traceback&nbsp;=
+&lt;built-in method with_traceback of AttributeError object&gt;
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a Web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a Web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "/var/www/projects.apache.org/site/make_doap.py", line 142, in &lt;module&gt;
+    % (form.getvalue('std_title'), form.getvalue('std_body'), form.getvalue('std_id'), makeURL(form.getvalue('std_url'))))
+  File "/var/www/projects.apache.org/site/make_doap.py", line 48, in makeURL
+    if s.startswith('http') :
+AttributeError: 'NoneType' object has no attribute 'startswith'
+
+-->
+
